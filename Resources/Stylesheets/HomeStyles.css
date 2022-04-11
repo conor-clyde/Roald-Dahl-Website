@@ -1,0 +1,206 @@
+/*==General css==*/
+body{
+margin:0;
+}
+
+.home html{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Supermercado One', cursive;
+}
+.home body{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #F4F3EE;
+}
+
+/*===Homepage===*/
+
+/*-NAVBAR-*/
+.home header{
+	background-color: #E27A78; /*change color*/
+}
+
+.home nav{
+	width: 100%;
+	height: 100px;
+	border: none;
+	margin: none;
+	padding: none;
+}
+
+.home .nav-container{
+	padding: none;
+	margin: none;
+	float: right;
+}
+
+.home .nav-btn{
+
+}
+.home #Search-bar{
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+/*--  --*/
+.home #top-left{
+display: inline-block;
+border-style: solid;
+border-width: 3px;
+border-color: #D84846;
+margin: none;
+padding: none;
+float: left;
+
+width: 45.82%;
+height: 450px;
+
+border-bottom-right-radius: 25px;
+border-left: none;
+border-top: none;
+
+text-align: center;
+color: antiquewhite;
+text-shadow: 3px 2px black;
+font-size: 16px;
+
+background-color: #E27A78; /*change color*/
+}
+
+.home #top-right{
+display: inline-block;
+border-style: solid;
+border-width: 3px;
+border-color: #D84846;
+margin: none;
+padding: none;
+float: right;
+
+width: 54%;
+height: 450px;
+
+border-bottom-radius: 25px;
+border-left: none;
+border-right: none;
+border-bottom: none;
+
+}
+
+/*--Bestsellers--*/
+.home .main-container{
+text-align: center;
+margin: 5px;
+overflow: hidden;
+}
+
+.home .main-container h1{
+	text-decoration: underline;
+}
+
+.home .bestseller{
+display: inline-block;
+margin-left: 25px;
+margin-right: 25px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.home .bestseller img{
+	height: 475px;
+	width: 325px;
+}
+
+/*--Homepage Options--*/
+.home .opt-container{
+	text-align: center;
+	width: 100%;
+	height: 500px;
+	padding: none;
+	margin-bottom: 50px;
+
+	border-width: 3px 0px 3px 0px;
+	border-color: #06A0B1;
+	border-style: solid;
+	background-color: whitesmoke;
+
+	transition: all .2s ease-in-out;
+	overflow: hidden;
+}
+
+.home .opt-container:hover{
+	transform: scale(1.2);
+	overflow: hidden;
+}
+
+
+.home #Signup{
+	background-image: url(../Images/signup.jpg);
+	background-repeat:no-repeat;
+	background-position: center ;
+	background-size: cover;
+	background-opacity: 80%;
+}
+
+.home #Store{
+	background-image: url(../Images/Store.jpg);
+	background-repeat:no-repeat;
+	background-position: center ;
+	background-size: cover;
+	opacity: 80%;
+}
+
+/*--FOOTER--*/
+
+.home #bottom-left{
+display: inline-block;
+border-style: solid;
+border-width: 3px;
+border-color: #D84846;
+margin: none;
+padding: none;
+float: left;
+
+width: 54%;
+height: 400px;
+
+border-left: none;
+border-right: none;
+border-top: none;
+
+text-align: center;
+}
+
+.home #bottom-right{
+display: inline-block;
+border-style: solid;
+border-width: 3px;
+border-color: #D84846;
+margin: none;
+padding: none;
+float: right;
+
+width: 45.8%;
+height: 400px;
+
+border-top-left-radius: 25px;
+
+border-right: none;
+border-bottom: none;
+
+background-color: #E27A78;
+
+}
+
+.home footer{
+	background-color: #E27A78;
+	margin: none;
+	padding: none;
+}
