@@ -1,6 +1,7 @@
-# Roald-Dahl-Website
-Roald-Dahl-Website
+## Introduction to Project
 This is a website that I have been working on in my free time.
+
+## Screenshots
 
 
 
